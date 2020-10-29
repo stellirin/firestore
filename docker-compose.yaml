@@ -1,0 +1,11 @@
+version: "3.8"
+
+networks:
+  default:
+    name: firestore
+
+services:
+  emulator:
+    build:
+      context: ./
+      dockerfile: Dockerfile.emulator
